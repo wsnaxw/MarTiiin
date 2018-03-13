@@ -7,6 +7,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/customerfegin/pom.xml" />
+        <option value="$PROJECT_DIR$/provider01/pom.xml" />
+        <option value="$PROJECT_DIR$/provider02/pom.xml" />
       </list>
     </option>
   </component>

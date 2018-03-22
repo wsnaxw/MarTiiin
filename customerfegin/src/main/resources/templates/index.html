@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        function test1() {
+            $.post("/hello/test",null,function (obj) {
+                console.log(obj)
+            })
+        }
+    </script>
+
+</head>
+<body>
+<div id="test">
+
+    <h1 >Hello.v.2</h1>
+    <button onclick="test1()">aaa</button>
+</div>
+</body>
+</html>
